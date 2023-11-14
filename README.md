@@ -2,7 +2,7 @@
 ### Overview : 
 This Tableau dashboard provides real-time insights into the sales performance of a computer hardware business facing challenges in a dynamically changing market. The dashboard covers various key metrics, allowing users to analyze revenue, sales quantity, profit, and other crucial aspects.
 ![image](https://github.com/ImaneMdn/Sales-Quantity-and-Profit-Analysis-Dashboard/assets/115882702/b8b645fc-2369-473f-81a9-0f3bda7ab0bb)
-![image](https://github.com/ImaneMdn/Sales-Quantity-and-Profit-Analysis-Dashboard/assets/115882702/9931bf70-deb9-443e-a2cb-2bd7c6532596)
+![image](https://github.com/ImaneMdn/Sales-Quantity-and-Profit-Analysis-Dashboard/assets/115882702/004beb66-c94d-47da-8eb1-a38e87c08b17)
 ![image](https://github.com/ImaneMdn/Sales-Quantity-and-Profit-Analysis-Dashboard/assets/115882702/ea608e75-a83a-42e3-984c-e50501353e63)
 ![image](https://github.com/ImaneMdn/Sales-Quantity-and-Profit-Analysis-Dashboard/assets/115882702/dac9e0fe-d629-481b-921e-40656aa48a62)
 
