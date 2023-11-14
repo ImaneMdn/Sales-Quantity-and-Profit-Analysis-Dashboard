@@ -21,5 +21,42 @@ This Tableau dashboard provides real-time insights into the sales performance of
 9. What is the trend in profit over time?
 10. Who are the key customers impacting profitability?
 
+### Data Analysis Using SQL : 
+
+1. Show all customer records 
+SELECT * FROM customers;
+
+2. Show total number of customers
+
+SELECT count(*) FROM customers;
+
+3. Show transactions where currency is US dollars
+
+SELECT * from sales.transactions where currency="USD";
+
+4. Show transactions in 2020
+
+SELECT* FROM sales.transactions ST
+INNER JOIN sales.date SD ON ST.order_date= SD.date 
+where SD.year=2020;
+
+5. Show total revenue in year 2020 :
+SELECT SUM(sales_amount) FROM sales.transactions ST
+INNER JOIN sales.date SD ON ST.order_date= SD.date 
+where SD.year=2020 and ST.currency="INR";
+
+6. Show total revenue in year 2020, January Month :
+
+SELECT SUM(transactions.sales_amount) FROM sales.transactions 
+INNER JOIN sales.date ON transactions.order_date=date.date 
+where date.year=2020 and date.month_name="January";
+
+7. Show total revenue in year 2020 in Chennai :
+
+SELECT sum(transactions.sales_amount) 
+FROM sales.transactions
+join sales.date ON date.date = transactions.order_date 
+where date.year = 2020 and transactions.market_code = 'Mark001';
+
 ### Objective:
 The primary objective is to provide stakeholders with a comprehensive view of the business's sales performance. By utilizing the dashboard, users can make data-driven decisions, identify market trends, and respond effectively to the evolving landscape.
