@@ -41,6 +41,7 @@ INNER JOIN sales.date SD ON ST.order_date= SD.date
 where SD.year=2020;
 
 5. Show total revenue in year 2020 :
+   
 SELECT SUM(sales_amount) FROM sales.transactions ST
 INNER JOIN sales.date SD ON ST.order_date= SD.date 
 where SD.year=2020 and ST.currency="INR";
