@@ -24,6 +24,7 @@ This Tableau dashboard provides real-time insights into the sales performance of
 ### Data Analysis Using SQL : 
 
 1. Show all customer records 
+
 SELECT * FROM customers;
 
 2. Show total number of customers
